@@ -318,6 +318,7 @@ img {
 }
 .work__img {
   display: inline-block;
+  
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border-radius: 0.5rem;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -379,10 +380,10 @@ img {
 
 /*===== MEDIA QUERIES =====*/
 @media screen and (max-width: 576px) {
-  :root {
-    --big-font-size: 1.75rem;
-    --h2-font-size: 1.125rem;
-    --normal-font-size: 0.875rem;
+  .home__title {
+    font-size: 8vw;
+    margin-left: 5%;
+    line-height: 1.2;
   }
 
   .home__img {
@@ -390,10 +391,16 @@ img {
     width: 100%;
     margin-top: 2rem;
   }
-  .home__title{
-    font-size: 180%;
-    margin-left: 5%;
+
+  .home__social-icon {
+    margin-left: 2%;
   }
+
+  .button {
+    margin-left: 3%;
+  }
+}
+
   /* Medium screens (tablets) */
 @media (max-width: 768px) {
   .babi {
@@ -473,10 +480,10 @@ img {
   }
 
   .home__title {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-left: 5%;
   }
-}
+
 
 @media screen and (min-width: 768px) {
   .section {
@@ -567,7 +574,7 @@ img {
   }
 
   .home__title {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-left: 5%;
   }
 
