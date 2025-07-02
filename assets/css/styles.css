@@ -468,6 +468,14 @@ img {
     flex-direction: column;
     align-items: flex-start;
   }
+  .skills__text li {
+    white-space: nowrap;
+  }
+
+  .home__title {
+    font-size: 3rem;
+    margin-left: 5%;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -504,7 +512,7 @@ img {
   }
   .skills__container {
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 2rem;
+    column-gap: 1rem;
   }
   .work__container {
     grid-template-columns: repeat(2, 1fr);
@@ -519,6 +527,14 @@ img {
  .home__title{
   margin-left: 3%;
  }
+ .skills__text li {
+    white-space: nowrap;
+  }
+
+  .home__title {
+    font-size: 3rem;
+    margin-left: 5%;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -546,4 +562,13 @@ img {
   .work__container {
     grid-template-columns: repeat(3, 1fr);
   }
+  .skills__text li {
+    white-space: nowrap;
+  }
+
+  .home__title {
+    font-size: 3rem;
+    margin-left: 5%;
+  }
+
 }
